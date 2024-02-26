@@ -1,0 +1,78 @@
+h1 {
+  color: #414f57;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-size: 14pt;
+  font-weight: 300;
+  line-height: 2;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+
+
+body {
+  -webkit-text-size-adjust: none;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+
+}
+
+h1,
+h2,
+h3 {
+  color: #313f47;
+  line-height: 1.5;
+  margin: 0 0 0.75em 0;
+}
+
+h4,
+h5,
+h6 {
+  color: #313f47;
+  line-height: 1;
+  margin: 0 0 0.5em 0;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+
+h1 {
+  font-size: 2.5em;
+  letter-spacing: 0.17em;
+  margin: 0 0 0.525em 0;
+  background-image: url("bg.jpg");
+}
+
+h2 {
+  font-size: 1.55em;
+}
+
+h4 {
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+}
+
+h5 {
+  margin: 0 0 0 0;
+  line-height: 0.75;
+}
+
+br {
+  padding-bottom: 0.3em;
+  margin: 0 0 1em 0;
+  line-height: 1;
+}
+
+p {
+  line-height: 1em;
+}
