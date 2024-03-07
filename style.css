@@ -160,3 +160,7 @@ label {
 footer p {
     font-family: "Lato", sans-serif;
 }
+
+tr td input, form {
+    margin-left: 5%;
+}
