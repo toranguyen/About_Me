@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        td,
+        tr,
+        label,
+        form,
+        input {
+            vertical-align: text-middle;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        td {
+            padding: 0.5em;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        input {
+            font-size: 12pt;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Tora Nguyen</h1>
+    <br />
+    <hr />
+    <h2>Contact</h2>
+    <table>
+        <tr>
+            <td><label>Name</label></td>
+            <td><input></td>
+        </tr>
+        <tr>
+            <td><label>Email</label></td>
+            <td><input></td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top"><label>Message</label></td>
+            <td>
+                <form action="mailto:tora@sent.com" method="post" enctype="text/plain">
+                    <textarea name="message" rows="15" cols="60">Please leave your message here.</textarea>
+                    <p></p>
+                    <input type="submit" value="Send">
+                </form>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
