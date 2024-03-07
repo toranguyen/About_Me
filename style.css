@@ -14,15 +14,22 @@ p {
 
 body {
     -webkit-text-size-adjust: none;
-    margin-left: 12%;
+    margin-left: 15%;
     margin-right: 15%;
     padding-top: 5%;
     padding-bottom: 5%;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 20%;
+    padding-right: 30%;
     background-image: url("bg.jpg");
 }
 
+br {
+    line-height: 1;
+}
+
+hr {
+    line-height: 1;
+}
 
 h1,
 h2,
@@ -68,6 +75,7 @@ h2 {
 
 h4 {
     font-weight: 450;
+    color: green;
 }
 
 h5 {
@@ -91,7 +99,7 @@ p {
 
 ul li {
     margin-left: 5%;
-    text-indent: 5%;
+    text-indent: 2.5%;
 }
 
 ul li a {
@@ -102,7 +110,7 @@ ul li a {
     line-height: 1.2;
     text-indent: 150px;
     font-weight: 350;
-    
+
 }
 
 ul li a:before {
