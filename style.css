@@ -39,6 +39,11 @@ h3 {
     margin: 0 0 0.75em 0;
 }
 
+h4 {
+    font-weight: 450;
+    color: green;
+}
+
 h4,
 h5,
 h6 {
@@ -71,11 +76,6 @@ h1 {
 
 h2 {
     font-size: 1.55em;
-}
-
-h4 {
-    font-weight: 450;
-    color: green;
 }
 
 h5 {
